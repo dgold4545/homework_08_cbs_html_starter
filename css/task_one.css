@@ -25,11 +25,21 @@
   position: relative;
   border: 2px solid #ccc;
   cursor: pointer;
+  background-color: #ccc;
 }
 
 .checkbox .box {
   position: absolute;
   right: 4px;
+  top: 4px;
+  width: 32px;
+  height: 32px;
+  background: white;
+}
+
+.box.left {
+  position: absolute;
+  left: 4px;
   top: 4px;
   width: 32px;
   height: 32px;
