@@ -79,8 +79,10 @@
 .toggle.green {
   background: green;
   border: 2px solid green;
+  height: 28px;
 }
 
 .toggle.green .slider {
-  left: 33px;
+  left: 34px;
+  top: 2px;
 }
