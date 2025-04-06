@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/task_three.css" />
+
+    <link
+      rel="shortcut icon"
+      href="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/21_Angular_logo_logos-1024.png"
+      type="image/x-icon"
+    />
+    <title>task_three</title>
+  </head>
+  <body>
+    <div class="content">
+      <h1>Контент сторінки</h1>
+      <p>Цей контент створений для забезпечення вертикального скролу.</p>
+
+      <div style="height: 1200px"></div>
+      <button onclick="openModal()">Відкрити модальне вікно</button>
+    </div>
+
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <p>Це модальне вікно</p>
+        <button onclick="closeModal()">Закрити</button>
+      </div>
+    </div>
+
+    <script>
+      function openModal() {
+        document.getElementById('modal').style.display = 'flex';
+      }
+
+      function closeModal() {
+        document.getElementById('modal').style.display = 'none';
+      }
+    </script>
+  </body>
+</html>
